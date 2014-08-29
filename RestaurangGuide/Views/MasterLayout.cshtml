@@ -1,0 +1,60 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/StyleSheet.css" rel="stylesheet" />
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquery-1.9.1.intellisense.js"></script>
+    <script src="~/Scripts/jquery-1.9.1.min.js"></script>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <title>Smygi's Restaurang Guide</title>
+</head>
+<body>
+    <div id="content">
+        <a href="/"><header>Smygi's Restaurant Guide</header></a>
+        <center>
+            <nav>
+                <div id="navbuttongroup" class="btn-group">
+                    <a href='@Url.Action("Index", "Home")' class="btn btn-default"><span class="glyphicon glyphicon-home"></span></a>
+                    <a href='@Url.Action("Index", "Home")' class="btn btn-default">Search by Country</a>
+                    <a href='@Url.Action("Index", "Home")' class="btn btn-default">Search by City</a>
+                                        @Html.ActionLink("Latest Restaurants", "Index", "Latest", null, new { @class = "btn btn-default" })
+                    <a href='@Url.Action("Index", "Home")' class="btn btn-default">RIGHT</a>
+                    <a href='@Url.Action("Index", "Home")' class="btn btn-default">RIGHT</a>
+                    <a href='@Url.Action("Index", "Home")' class="btn btn-default">RIGHT</a>
+                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-user"></span></button>
+                </div>
+            </nav>
+        </center>
+        <div id="contentpage">
+            <div class="content">
+                @RenderBody()
+            </div>
+            <div class="rightbar">
+                <div id="login">
+                    @using (Html.BeginForm("Login","Home"))
+                    {
+                        <div style="margin: 0 auto 0 auto; width: 150px; color: white;">
+                            Username:
+                            @Html.TextBox("username", null, new { @class = "form-control input-sm" })
+                            Password:
+                            @Html.Password("password", null, new { @class = "form-control input-sm", style = "width: 150px; margin-bottom: 10px;" })
+                        </div>
+                        <input type="submit" value="hej"/>
+                        <button type="button" class="btn btn-success btn-sm" style="margin-left: 10px;">Login <span class="glyphicon glyphicon-log-in"></span></button>
+                        <button type="button" class="btn btn-success btn-sm" style="margin-right: 10px; float: right;">Register <span class="glyphicon glyphicon-registration-mark"></span></button>
+                    }
+                </div>
+               <center><iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FFacebookDevelopers&amp;width=175&amp;height=300&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true&amp;appId=324562441661" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:175px; height:300px;" allowtransparency="true"></iframe></center>
+            </div>
+        </div>
+        <footer><span class="glyphicon glyphicon-copyright-mark"></span> Hej</footer>
+    </div>
+</body>
+</html>

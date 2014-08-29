@@ -1,0 +1,90 @@
+﻿body {
+    margin: 0;
+    background-color: lightgray !important;
+    text-decoration: none;
+}
+
+a, a:hover, a:visited, a:active, a:focus {
+    text-decoration: none !important;
+}
+
+header {
+    width: 1000px;
+    height: auto;
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    outline: none;
+    font: bold 4em/2em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    color: hsla(0,0%,20%,1);
+    -ms-text-shadow: #666666 0 -1px 0, #ffffff 0 2px 1px;
+    -ms-text-shadow: hsla(0,0%,40%,.5) 0 -1px 0, hsla(0,0%,100%,.6) 0 2px 1px;
+    text-shadow: hsla(0,0%,40%,.5) 0 -1px 0, hsla(0,0%,100%,.6) 0 2px 1px;
+    background-color: hsl(0, 0%, 60%);
+    -webkit-box-shadow: inset hsla(0, 0%, 15%, 1) 0 0px 0px 4px, /* border */
+    inset hsla(0, 0%, 15%, .8) 0 -1px 5px 4px, /* soft SD */
+    inset hsla(0, 0%, 0%, .25) 0 -1px 0px 7px, /* bottom SD */
+    inset hsla(0, 0%, 100%, .7) 0 2px 1px 7px; /* top HL */
+    -ms-box-shadow: inset hsla(0, 0%, 15%, 1) 0 0px 0px 4px, /* border */
+    inset hsla(0, 0%, 15%, .8) 0 -1px 5px 4px, /* soft SD */
+    inset hsla(0, 0%, 0%, .25) 0 -1px 0px 7px, /* bottom SD */
+    inset hsla(0, 0%, 100%, .7) 0 2px 1px 7px; /* top HL */
+    box-shadow: inset hsla(0, 0%, 15%, 1) 0 0px 0px 4px, /* border */
+    inset hsla(0, 0%, 15%, .8) 0 -1px 5px 4px, /* soft SD */
+    inset hsla(0, 0%, 0%, .25) 0 -1px 0px 7px, /* bottom SD */
+    inset hsla(0, 0%, 100%, .7) 0 2px 1px 7px; /* top HL */
+    -webkit-transition: color .2s;
+    -moz-transition: color .2s;
+    -ms-transition: color .2s;
+    -o-transition: color .2s;
+    transition: color .2s;
+}
+
+
+
+.rightbar {
+    width: 200px;
+    min-height: 500px;
+    background: gray;
+    float: left;
+}
+
+.content {
+    width: 780px;
+    padding: 10px;
+    min-height: 500px;
+    background: rgb(108, 108, 108);
+    float: left;
+}
+
+#content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+nav {
+    width: 1000px;
+    background-color: white;
+}
+
+#navbuttongroup {
+    margin: auto;
+}
+
+#login {
+    background: rgb(74, 74, 74);
+    height: 170px;
+    width: 200px;
+    border: 8px inset rgb(228, 228, 228); 
+}
+
+footer {
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+    width: 1000px;
+    height: 50px;
+    display: block;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+

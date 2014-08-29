@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/MasterLayout.cshtml";
+}
+
+<h1>TITLE</h1>
+@Html.ActionLink("Test","Index")
+
+@if (ViewBag.Fish.ToString() != string.Empty)
+{
+    @ViewBag.Fish
+}
