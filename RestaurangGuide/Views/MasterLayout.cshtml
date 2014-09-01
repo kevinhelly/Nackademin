@@ -24,7 +24,7 @@
                     <a href='@Url.Action("Index", "Home")' class="btn btn-default"><span class="glyphicon glyphicon-home"></span></a>
                     <a href='@Url.Action("Index", "Home")' class="btn btn-default">Search by Country</a>
                     <a href='@Url.Action("Index", "Home")' class="btn btn-default">Search by City</a>
-                                        @Html.ActionLink("Latest Restaurants", "Index", "Latest", null, new { @class = "btn btn-default" })
+                    @Html.ActionLink("Latest Restaurants", "Index", "Latest", null, new { @class = "btn btn-default" })
                     <a href='@Url.Action("Index", "Home")' class="btn btn-default">RIGHT</a>
                     <a href='@Url.Action("Index", "Home")' class="btn btn-default">RIGHT</a>
                     <a href='@Url.Action("Index", "Home")' class="btn btn-default">RIGHT</a>
@@ -38,20 +38,20 @@
             </div>
             <div class="rightbar">
                 <div id="login">
-                    @using (Html.BeginForm("Login","Home"))
+                    @using (Html.BeginForm("Index", "Admin"))
                     {
                         <div style="margin: 0 auto 0 auto; width: 150px; color: white;">
                             Username:
-                            @Html.TextBox("username", null, new { @class = "form-control input-sm" })
+                            @Html.TextBox("username", null, new { @class = "form-control input-sm", required = "required" })
                             Password:
-                            @Html.Password("password", null, new { @class = "form-control input-sm", style = "width: 150px; margin-bottom: 10px;" })
+                            @Html.Password("password", null, new { @class = "form-control input-sm", style = "width: 150px; margin-bottom: 10px;", required = "required" })
                         </div>
                         @*<input type="submit" value="hej"/>*@
                         <button type="submit" formmethod="post" class="btn btn-success btn-sm" style="margin-left: 10px;">Login <span class="glyphicon glyphicon-log-in"></span></button>
                         <button type="button" class="btn btn-success btn-sm" style="margin-right: 10px; float: right;">Register <span class="glyphicon glyphicon-registration-mark"></span></button>
                     }
                 </div>
-               @*<center><iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FFacebookDevelopers&amp;width=175&amp;height=300&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true&amp;appId=324562441661" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:175px; height:300px;" allowtransparency="true"></iframe></center>*@
+                @*<center><iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2FFacebookDevelopers&amp;width=175&amp;height=300&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true&amp;appId=324562441661" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:175px; height:300px;" allowtransparency="true"></iframe></center>*@
             </div>
         </div>
         <footer><span class="glyphicon glyphicon-copyright-mark"></span> Hej</footer>
