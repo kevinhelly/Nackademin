@@ -65,9 +65,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Web.config" />
-  </ItemGroup>
-  <ItemGroup>
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\Rating.cs" />
     <Compile Include="Models\Restaurant.cs" />
@@ -78,12 +75,6 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="Repositories\Web.config" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup />
   <PropertyGroup>
