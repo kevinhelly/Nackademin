@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using RestaurangGuide.Domain.Model;
+﻿using System.Linq;
+using RestaurangGuide.DB.Models;
 
 namespace RestaurangGuide.Domain.Infrastructure
 {
