@@ -71,6 +71,7 @@
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\Rating.cs" />
     <Compile Include="Models\Restaurant.cs" />
+    <Compile Include="Repositories\IRestaurantRepository.cs" />
     <Compile Include="Repositories\RestGuideDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

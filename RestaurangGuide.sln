@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurangGuide", "RestaurangGuide\RestaurangGuide.csproj", "{C76937C0-BDFD-4521-83BA-4055C19A72B3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurangGuide.Web", "RestaurangGuide\RestaurangGuide.Web.csproj", "{C76937C0-BDFD-4521-83BA-4055C19A72B3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurangGuide.Domain", "RestaurangGuide.Domain\RestaurangGuide.Domain.csproj", "{4FA89E7D-EFFB-49BE-935E-6C9035CC370A}"
 EndProject

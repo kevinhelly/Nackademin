@@ -1,9 +1,13 @@
-namespace RestaurangGuide.DB.Models
+using RestaurangGuide.DB.Models;
+
+namespace RestaurangGuide.DB.Repositories
 {
+    using RestaurangGuide.DB;
     using System;
-    using System.Data.Entity;
+    using System.Data;
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
+    using System.Data.Entity;
 
     public partial class RestGuideDB : DbContext
     {

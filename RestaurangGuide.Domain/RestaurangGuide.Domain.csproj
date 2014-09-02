@@ -39,19 +39,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Infrastructure\IRestaurantRepository.cs" />
     <Compile Include="Model\Restaurant.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\IRestaurantService.cs" />
     <Compile Include="Services\RestaurantService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\RestaurangGuide\RestaurangGuide.csproj">
-      <Project>{c76937c0-bdfd-4521-83ba-4055c19a72b3}</Project>
-      <Name>RestaurangGuide</Name>
+    <ProjectReference Include="..\RestaurangGuide.DB\RestaurangGuide.DB.csproj">
+      <Project>{536ffa57-d71f-44c0-82a5-eea7fb94dcc9}</Project>
+      <Name>RestaurangGuide.DB</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
