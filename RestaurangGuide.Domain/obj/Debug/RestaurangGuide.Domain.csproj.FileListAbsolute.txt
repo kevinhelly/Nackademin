@@ -1,0 +1,9 @@
+C:\Users\MooMoo\Source\Repos\Nackademin\RestaurangGuide.Domain\bin\Debug\RestaurangGuide.Domain.dll
+C:\Users\MooMoo\Source\Repos\Nackademin\RestaurangGuide.Domain\bin\Debug\RestaurangGuide.Domain.pdb
+C:\Users\MooMoo\Source\Repos\Nackademin\RestaurangGuide.Domain\bin\Debug\RestaurangGuide.DB.dll
+C:\Users\MooMoo\Source\Repos\Nackademin\RestaurangGuide.Domain\bin\Debug\EntityFramework.dll
+C:\Users\MooMoo\Source\Repos\Nackademin\RestaurangGuide.Domain\bin\Debug\RestaurangGuide.DB.pdb
+C:\Users\MooMoo\Source\Repos\Nackademin\RestaurangGuide.Domain\bin\Debug\EntityFramework.xml
+C:\Users\MooMoo\Source\Repos\Nackademin\RestaurangGuide.Domain\obj\Debug\RestaurangGuide.Domain.csprojResolveAssemblyReference.cache
+C:\Users\MooMoo\Source\Repos\Nackademin\RestaurangGuide.Domain\obj\Debug\RestaurangGuide.Domain.dll
+C:\Users\MooMoo\Source\Repos\Nackademin\RestaurangGuide.Domain\obj\Debug\RestaurangGuide.Domain.pdb
