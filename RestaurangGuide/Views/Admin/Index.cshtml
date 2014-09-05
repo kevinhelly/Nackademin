@@ -1,6 +1,30 @@
-﻿@{
+﻿@using RestaurangGuide.DB.Models
+@model RestaurangGuide.DB.Models.Restaurant
+
+@{
     ViewBag.Title = "Index";
     Layout = "~/Views/MasterLayout.cshtml";
 }
 
+<h2>@Model.RestaurantName</h2>
+@using (Html.BeginForm("Index", "Admin", FormMethod.Post, new { style = "display:table;" }))
+{
+    <p style="display: table-row;"><b style="display: table-cell; padding-right: 5px; width: 200px;">@Html.DisplayNameFor(m => m.Firstname):</b> @Html.TextBoxFor(m => m.Firstname, new {@class = "form-control input-sm", style = "width:200px; display:table-cell;"})<br /></p>
+    <p style="display: table-row;"> <b style="display: table-cell; padding-right: 5px; width: 200px;">@Html.DisplayNameFor(m => m.Lastname):</b> @Html.TextBoxFor(m => m.Lastname, new {@class = "form-control input-sm", style = "width:200px; display:table-cell;"})<br /></p>
+    <p style="display: table-row;"><b style="display: table-cell; padding-right: 5px; width: 200px;">@Html.DisplayNameFor(m => m.Address):</b> @Html.TextBoxFor(m => m.Address, new {@class = "form-control input-sm", style = "width:200px; display:table-cell;"})<br /></p>
+    <p style="display: table-row;"><b style="display: table-cell; padding-right: 5px; width: 200px;">@Html.DisplayNameFor(m => m.Capacity):</b> @Html.TextBoxFor(m => m.Capacity, new {@class = "form-control input-sm", style = "width:200px; display:table-cell;"})<br /></p>
+    <p style="display: table-row;"><b style="display: table-cell; padding-right: 5px; width: 200px;">@Html.DisplayNameFor(m => m.City):</b> @Html.TextBoxFor(m => m.City, new {@class = "form-control input-sm", style = "width:200px; display:table-cell;"})<br /></p>
+    <p style="display: table-row;"><b style="display: table-cell; padding-right: 5px; width: 200px;">@Html.DisplayNameFor(m => m.Commune):</b> @Html.TextBoxFor(m => m.Commune, new {@class = "form-control input-sm", style = "width:200px; display:table-cell;"})<br /></p>
+    <p style="display: table-row;"><b style="display: table-cell; padding-right: 5px; width: 200px;">@Html.DisplayNameFor(m => m.Description):</b> @Html.TextAreaFor(m => m.Description, new {@class = "form-control input-sm", style = "width:200px; display:table-cell;"})<br /></p>
+    <p style="display: table-row;"><b style="display: table-cell; padding-right: 5px; width: 200px;">@Html.DisplayNameFor(m => m.NumberOfSeats):</b> @Html.TextBoxFor(m => m.NumberOfSeats, new {@class = "form-control input-sm", style = "width:200px; display:table-cell;"})<br /></p>
+    <p style="display: table-row;"><b style="display: table-cell; padding-right: 5px; width: 200px;">@Html.DisplayNameFor(m => m.RestaurantName):</b> @Html.TextBoxFor(m => m.RestaurantName, new {@class = "form-control input-sm", style = "width:200px; display:table-cell;"})<br /></p>
+    <p style="display: table-row;"><b style="display: table-cell; padding-right: 5px; width: 200px;">@Html.DisplayNameFor(m => m.TotalGuests):</b> @Html.TextBoxFor(m => m.TotalGuests, new {@class = "form-control input-sm", style = "width:200px; display:table-cell;"})<br /></p>
+    <p style="display: table-row;"><b style="display: table-cell; padding-right: 5px; width: 200px;">@Html.DisplayNameFor(m => m.ZipCode):</b> @Html.TextBoxFor(m => m.ZipCode, new {@class = "form-control input-sm", style = "width:200px; display:table-cell;"})<br /></p>
+    <p style="display: table-row;"><b style="display: table-cell; padding-right: 5px; width: 200px;">Save:</b> <button type="submit" class="btn btn-primary btn-sm" style="display:table-cell;"><span class="glyphicon glyphicon-save"></span></button><br /></p>
 
+}
+
+@foreach (var r in Model.Ratings)
+{
+    <p>@r.Name - @r.Review</p>
+}

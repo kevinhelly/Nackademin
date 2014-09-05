@@ -146,6 +146,7 @@
     <Content Include="Views\Web.config" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="Views\Latest\Index.cshtml" />
+    <Content Include="Views\Home\TestAdmin.cshtml" />
     <Content Include="Views\Admin\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -163,6 +164,10 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\RestaurangGuide.DB\RestaurangGuide.DB.csproj">
+      <Project>{536ffa57-d71f-44c0-82a5-eea7fb94dcc9}</Project>
+      <Name>RestaurangGuide.DB</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RestaurangGuide.Domain\RestaurangGuide.Domain.csproj">
       <Project>{4fa89e7d-effb-49be-935e-6c9035cc370a}</Project>
       <Name>RestaurangGuide.Domain</Name>

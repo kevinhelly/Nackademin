@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Services.Description;
+using RestaurangGuide.DB.Models;
 
 namespace RestaurangGuide.Controllers
 {
@@ -23,5 +24,7 @@ namespace RestaurangGuide.Controllers
             ViewBag.Fish = "Hej";
             return View("Index");
         }
+
+        
     }
 }

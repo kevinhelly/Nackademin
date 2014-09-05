@@ -7,3 +7,12 @@ C:\Users\MooMoo\Source\Repos\Nackademin\RestaurangGuide.Domain\bin\Debug\EntityF
 C:\Users\MooMoo\Source\Repos\Nackademin\RestaurangGuide.Domain\obj\Debug\RestaurangGuide.Domain.csprojResolveAssemblyReference.cache
 C:\Users\MooMoo\Source\Repos\Nackademin\RestaurangGuide.Domain\obj\Debug\RestaurangGuide.Domain.dll
 C:\Users\MooMoo\Source\Repos\Nackademin\RestaurangGuide.Domain\obj\Debug\RestaurangGuide.Domain.pdb
+C:\Users\Kevin\Documents\GitHub\Nackademin\RestaurangGuide.Domain\bin\Debug\RestaurangGuide.Domain.dll
+C:\Users\Kevin\Documents\GitHub\Nackademin\RestaurangGuide.Domain\bin\Debug\RestaurangGuide.Domain.pdb
+C:\Users\Kevin\Documents\GitHub\Nackademin\RestaurangGuide.Domain\bin\Debug\RestaurangGuide.DB.dll
+C:\Users\Kevin\Documents\GitHub\Nackademin\RestaurangGuide.Domain\bin\Debug\EntityFramework.dll
+C:\Users\Kevin\Documents\GitHub\Nackademin\RestaurangGuide.Domain\bin\Debug\RestaurangGuide.DB.pdb
+C:\Users\Kevin\Documents\GitHub\Nackademin\RestaurangGuide.Domain\bin\Debug\EntityFramework.xml
+C:\Users\Kevin\Documents\GitHub\Nackademin\RestaurangGuide.Domain\obj\Debug\RestaurangGuide.Domain.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Documents\GitHub\Nackademin\RestaurangGuide.Domain\obj\Debug\RestaurangGuide.Domain.dll
+C:\Users\Kevin\Documents\GitHub\Nackademin\RestaurangGuide.Domain\obj\Debug\RestaurangGuide.Domain.pdb

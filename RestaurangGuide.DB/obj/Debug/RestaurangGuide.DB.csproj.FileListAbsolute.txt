@@ -7,3 +7,12 @@ C:\Users\MooMoo\Source\Repos\Nackademin\RestaurangGuide.DB\bin\EntityFramework.S
 C:\Users\MooMoo\Source\Repos\Nackademin\RestaurangGuide.DB\obj\Debug\RestaurangGuide.DB.csprojResolveAssemblyReference.cache
 C:\Users\MooMoo\Source\Repos\Nackademin\RestaurangGuide.DB\obj\Debug\RestaurangGuide.DB.dll
 C:\Users\MooMoo\Source\Repos\Nackademin\RestaurangGuide.DB\obj\Debug\RestaurangGuide.DB.pdb
+C:\Users\Kevin\Documents\GitHub\Nackademin\RestaurangGuide.DB\bin\RestaurangGuide.DB.dll
+C:\Users\Kevin\Documents\GitHub\Nackademin\RestaurangGuide.DB\bin\RestaurangGuide.DB.pdb
+C:\Users\Kevin\Documents\GitHub\Nackademin\RestaurangGuide.DB\bin\EntityFramework.dll
+C:\Users\Kevin\Documents\GitHub\Nackademin\RestaurangGuide.DB\bin\EntityFramework.SqlServer.dll
+C:\Users\Kevin\Documents\GitHub\Nackademin\RestaurangGuide.DB\bin\EntityFramework.xml
+C:\Users\Kevin\Documents\GitHub\Nackademin\RestaurangGuide.DB\bin\EntityFramework.SqlServer.xml
+C:\Users\Kevin\Documents\GitHub\Nackademin\RestaurangGuide.DB\obj\Debug\RestaurangGuide.DB.csprojResolveAssemblyReference.cache
+C:\Users\Kevin\Documents\GitHub\Nackademin\RestaurangGuide.DB\obj\Debug\RestaurangGuide.DB.dll
+C:\Users\Kevin\Documents\GitHub\Nackademin\RestaurangGuide.DB\obj\Debug\RestaurangGuide.DB.pdb
